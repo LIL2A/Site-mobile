@@ -1,0 +1,177 @@
+/* Estilizacao Geral */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+a{
+  color: #753D4E;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+a:hover{
+  color: #BE3F44;
+  text-decoration: underline;
+}
+
+.Separator{
+  height: 2px;
+  width: 128px;
+  background: black;
+  opacity: 30%;
+  border-radius: 100%;
+}
+
+/* Estilizacao do App */
+.App{
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background: #FAE4D9;
+  color: #753D4E;
+  padding: 0 64px 0 64px;
+}
+
+.App .AppContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 32px;
+  font-weight: 500;
+}
+.App .Me{
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  align-items: center;
+}
+
+.App img{
+  border-radius: 100%;
+  width: 300px;
+  height: 300px;
+}
+
+/* Estilizacao do Sobre */
+.Sobre{
+  height: 100vh;
+  align-items: center;
+  text-align: center;
+  background: #FAE4D9;
+  color: #753D4E;
+  padding: 0 64px 0 64px;
+}
+
+.SobreContent{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  gap: 32px;
+  font-weight: 500;
+}
+.Sobre h2{
+  margin-bottom: 12px;
+}
+
+.SobreCursos p{
+  text-align: start;
+  background: #BBDED7;
+  margin-bottom: 4px;
+  border-radius: 9999px;
+  padding: 0 12px 0 12px;
+}
+
+.SobreIdiomas p:nth-child(2){
+  text-align: start;
+  background: #BBDED7;
+  margin-bottom: 4px;
+  border-radius: 9999px;
+  padding: 0 12px 0 12px;
+}
+
+.SobreIdiomas p:nth-child(3){
+  text-align: start;
+  background: #BBDED7;
+  border-radius: 99px 99px 0 0;
+  padding: 0 12px 0 12px;
+}
+
+.SobreIdiomas p:nth-child(4){
+  text-align: start;
+  background: #BBDED7;
+  border-radius: 0 0 99px 99px;
+  padding: 0 12px 0 12px;
+}
+
+.SobreContent a{
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  font-size: 24px;
+  padding: 26px;
+  border-radius: 100px;
+  background: #BBDED7;
+}
+
+
+
+/* Estilizacao do menu */
+.MenuBtn{
+  display: flex;
+  border: none;
+  background: #753D4E;
+  color: #FAE4D9;
+  align-items: center;
+  justify-content: center;
+  font-size: 40px;
+  border-radius: 20%;
+  height: 64px;
+  width: 64px;
+  margin: 12px;
+  cursor: pointer;
+}
+
+.Menu{
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+#Logo{
+  margin: 30px 0 28px 0;
+  width: 280px;
+  height: 95px;
+}
+
+.MenuContent{
+  background: #BBDED7;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.MenuNav{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.MenuNav a{
+  padding: 24px 64px 24px 64px;
+  font-size: 32px;
+  font-weight: 600;
+}
+
+.MenuSocial{
+  display: flex;
+  gap: 64px;
+  margin-bottom: 24px;
+  font-size: 48px;
+}
